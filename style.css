@@ -1,0 +1,87 @@
+.hero{
+    width: 100%;
+}
+.image{
+    width: 50%;
+}
+#iphone{
+    position:sticky ;
+}
+#top1{
+    position: relative;
+    right: 350px;
+    bottom: 150px;
+    
+}
+#top2{
+    bottom: 200px;
+    left: 250px;
+    position: relative;
+}
+.text{
+    width: 50%;
+    position: absolute;
+    right: 30px;
+    top: 250px;
+}
+.text>h1{
+    font-weight: bolder;
+}
+.row{
+    background-color: rgb(51, 49, 49);
+}
+.cards{
+    background-color:rgb(48, 43, 43) ;
+    border: 1px solid grey;
+}
+.card1{
+    border-right: 1px solid grey;
+}
+.card2{
+    border-right: 1px solid grey;
+}
+.card3{
+    border-right: 1px solid grey;
+}
+.bg-pink{
+    color: rgb(158, 61, 93);
+}
+.left{
+    position: relative;
+    left: 70px;
+}
+#last{
+    position: relative;
+    left:10px ;
+}
+@media(max-width:990px){
+   body{
+    margin: auto;
+   }
+    #iphone{
+    height: 10%;
+    width: 70%;
+   }
+   #top1{
+    position: absolute;
+    left: 220px;
+    bottom: 800px;
+    height: 50px;
+   }
+
+ #top2{
+    position: absolute;
+    height: 50px;
+    top: 400px;
+    left: 410px;
+   }
+.text{
+    font-size: small;
+    padding-left: 40px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+}
